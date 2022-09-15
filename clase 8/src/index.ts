@@ -1,0 +1,1 @@
+export const s78 = (name: string) => `Carlos Tevez: ${name}`;
