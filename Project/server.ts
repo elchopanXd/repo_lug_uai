@@ -3,7 +3,7 @@ dotenv.config(); //configura
 
 import express, { Express, Request, Response } from "express";
 import mongoose from "mongoose"; 
-import router from "./routes";
+import router from "./Routes";
 
 const app: Express = express();
 
@@ -17,7 +17,7 @@ app.listen(process.env.PORT, () => {
 });
 
 app.get("/", (req, res)=>{
-res.send("Suprema con Papas")
+res.send("Papas con calabaza")
 })
 
 interface User{
